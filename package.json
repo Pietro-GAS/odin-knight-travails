@@ -1,0 +1,31 @@
+{
+  "name": "odin-knight-travails",
+  "version": "1.0.0",
+  "description": "The goal of this project is to build a function that shows the shortest possible way to get from one square on a chessboard to another by outputting all squares the knight will stop on along the way.",
+  "homepage": "https://github.com/Pietro-GAS/odin-knight-travails#readme",
+  "bugs": {
+    "url": "https://github.com/Pietro-GAS/odin-knight-travails/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pietro-GAS/odin-knight-travails.git"
+  },
+  "license": "ISC",
+  "author": "pietrog",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "esint .",
+    "format-check": "prettier . --check",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.3"
+  }
+}
