@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "esint .",
+    "lint": "eslint .",
     "format-check": "prettier . --check",
     "format": "prettier . --write"
   },
